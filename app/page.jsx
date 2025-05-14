@@ -652,7 +652,7 @@ export default function Home() {
             </motion.div>
 
             <div className="mx-auto max-w-4xl">
-              <div className="grid gap-12 md:grid-cols-2 items-center">
+              <div className="grid gap-14 md:grid-cols-2 items-center">
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
