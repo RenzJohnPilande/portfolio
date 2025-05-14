@@ -701,9 +701,8 @@ export default function Home() {
                         solving real problems and delivering value.
                       </p>
                       <p>
-                        When I'm not coding, I enjoy hiking, photography, and
-                        contributing to open-source projects that make a
-                        difference.
+                        When I'm not coding, I enjoy gaming, listening to music,
+                        and hanging out with friends.
                       </p>
                     </div>
                   </div>
