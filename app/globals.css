@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -114,9 +114,112 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Section styles */
+  .section-container {
+    @apply container px-4 py-16 md:py-24 relative z-10;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl mb-4;
+  }
+
+  .section-subtitle {
+    @apply max-w-2xl text-muted-foreground text-lg;
+  }
+
+  /* Card hover effects */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg border-2 hover:border-primary/50;
+  }
+
+  /* Badge styles */
+  .skill-badge {
+    @apply inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors;
+  }
+
+  /* Icon container */
+  .icon-container {
+    @apply p-2 rounded-full bg-primary/10 text-primary transition-colors duration-300;
+  }
+
+  /* Gradient backgrounds */
+  .hero-gradient {
+    @apply bg-gradient-to-b from-slate-50 to-slate-100/50 dark:from-background dark:to-background/90;
+  }
+
+  .section-gradient-1 {
+    @apply bg-gradient-to-b from-muted/30 to-muted/50 dark:from-muted/10 dark:to-muted/20;
+  }
+}
+
+@layer utilities {
+  /* Animation utilities */
+  .animate-spin-slow {
+    animation: spin 20s linear infinite;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Text utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Hover effects */
+  .hover-lift {
+    @apply transition-transform duration-300;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Backdrop blur */
+  .backdrop-blur {
+    backdrop-filter: blur(8px);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
   }
 }
