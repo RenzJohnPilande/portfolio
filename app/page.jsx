@@ -100,7 +100,7 @@ export default function Home() {
         'A static website for showcasing golf apparel and products for K&G Golf. Built with modern design and responsive layout.',
       image: '/images/kng.png',
       tags: ['React.js', 'Tailwind CSS'],
-      liveUrl: 'https://keepgoinggolf.com/',
+      liveUrl: 'https://keepgoinggolf.com',
       githubUrl: '#',
     },
     {
@@ -110,7 +110,7 @@ export default function Home() {
         'A professional business website designed to represent New Element’s services and presence online.',
       image: '/images/newelement.png',
       tags: ['React.js', 'Tailwind CSS'],
-      liveUrl: 'https://phnei.com/',
+      liveUrl: 'https://phnei.com',
       githubUrl: '#',
     },
     {
@@ -120,7 +120,7 @@ export default function Home() {
         'A feature-rich web application with modules for task management, event planning, employee tracking, CMS, and attendance (coming soon).',
       image: '/images/golftime.png',
       tags: ['Laravel', 'Inertia.js', 'React.js', 'Tailwind CSS'],
-      liveUrl: 'https://golftimeph.online/',
+      liveUrl: 'https://golftimeph.online',
       githubUrl: '#',
     },
     {
@@ -130,7 +130,7 @@ export default function Home() {
         'An ongoing internal web application project featuring inventory management, attendance tracking, employee (job and department) management, loan handling, and payroll processing.',
       image: '/images/amlic.png',
       tags: ['Laravel', 'Inertia.js', 'React.js', 'Tailwind CSS'],
-      liveUrl: 'https://systems.acesmarinelinks.com/',
+      liveUrl: 'https://systems.acesmarinelinks.com',
       githubUrl: '#',
       status: 'Ongoing',
     },
