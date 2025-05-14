@@ -582,7 +582,7 @@ export default function Home() {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <span>Live Demo</span>
+                              <span>{project.liveUrl}</span>
                               <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
                             </a>
                           </Button>
