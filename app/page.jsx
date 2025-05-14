@@ -717,14 +717,16 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="mt-16 text-center"
               >
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="rounded-full group"
-                >
-                  Download Resume
-                  <ArrowUpRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                </Button>
+                <a href="/files/Pilande_CV.pdf" download="Pilande_CV.pdf">
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="rounded-full group"
+                  >
+                    Download Resume
+                    <ArrowUpRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </Button>
+                </a>
               </motion.div>
             </div>
           </div>
