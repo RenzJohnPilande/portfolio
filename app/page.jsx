@@ -301,7 +301,7 @@ export default function Home() {
                 <div className="mt-8 flex gap-4">
                   <Button variant="outline" size="icon" asChild>
                     <a
-                      href="https://github.com"
+                      href="https://github.com/RenzJohnPilande"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -443,27 +443,12 @@ export default function Home() {
                     asChild
                   >
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/renz-john-pilande-474685245/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Linkedin size={20} />
                       <span className="sr-only">LinkedIn</span>
-                    </a>
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    className="rounded-full"
-                    asChild
-                  >
-                    <a
-                      href="https://twitter.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Twitter size={20} />
-                      <span className="sr-only">Twitter</span>
                     </a>
                   </Button>
                 </motion.div>
