@@ -928,10 +928,10 @@ export default function Home() {
                               Email
                             </p>
                             <a
-                              href="mailto:renzjohnpilande@gmail"
+                              href="mailto:renzjohnpilande@gmail.com"
                               className="font-medium hover:text-primary transition-colors"
                             >
-                              renzjohnpilande@gmail
+                              renzjohnpilande@gmail.com
                             </a>
                           </div>
                         </div>
@@ -950,7 +950,7 @@ export default function Home() {
                               rel="noopener noreferrer"
                               className="font-medium hover:text-primary transition-colors"
                             >
-                              linkedin.com/in/renz-john-pilande-474685245/
+                              Renz John Pilande
                             </a>
                           </div>
                         </div>
